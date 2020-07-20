@@ -1,6 +1,13 @@
-# ejercicio1
-Api Date
+## Ejercicio 1
+
+## Description
+
+Ejercicio Api date, consumiendo con hhtp un servicio que da la hora.
+
 
 #Intrucciones
-`npm install` para instalar dependencias
-`npm start` para iniciar el proyecto
+
+```
+$ npm install
+$ npm start
+```
