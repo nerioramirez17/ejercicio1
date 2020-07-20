@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2020-07-17T19:02:38" id="0" hostname="workspacexwg74fsvygaxfde7.ws-644f7f96d9-tv68d" tests="4" errors="1" failures="4" time="0.287">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="ApiService should send GET/ request to the API" time="0.203" classname="unit.ApiService">
+    <failure type="">TypeError: Cannot read property 'json' of undefined
+    at ApiService.webpackJsonp../src/app/api.service.ts.ApiService.getDateTimeAPI src/app/api.service.ts:13:16)
+    at Object.&lt;anonymous&gt; src/app/api.service.spec.ts:29:13)
+    at TestBed.webpackJsonp../node_modules/@angular/core/@angular/core/testing.es5.js.TestBed.execute node_modules/@angular/core/@angular/core/testing.es5.js:826:1)
+    at Object.&lt;anonymous&gt; node_modules/@angular/core/@angular/core/testing.es5.js:956:29)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/proxy.js:129:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/jasmine-patch.js:145:1)
+    at Object.&lt;anonymous&gt; node_modules/zone.js/dist/jasmine-patch.js:160:1)
+</failure>
+  </testcase>
+  <testcase name="ApiService should not ditch the API function (API Mock Test)" time="0.012" classname="unit.ApiService">
+    <failure type="">TypeError: Cannot read property 'json' of undefined
+    at ApiService.webpackJsonp../src/app/api.service.ts.ApiService.getDateTimeAPI src/app/api.service.ts:13:16)
+    at Object.&lt;anonymous&gt; src/app/api.service.spec.ts:47:20)
+    at TestBed.webpackJsonp../node_modules/@angular/core/@angular/core/testing.es5.js.TestBed.execute node_modules/@angular/core/@angular/core/testing.es5.js:826:1)
+    at Object.&lt;anonymous&gt; node_modules/@angular/core/@angular/core/testing.es5.js:956:29)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/proxy.js:129:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/jasmine-patch.js:145:1)
+    at Object.&lt;anonymous&gt; node_modules/zone.js/dist/jasmine-patch.js:160:1)
+</failure>
+  </testcase>
+  <testcase name="AppComponent should request the API upon loading of application" time="0.05" classname="unit.AppComponent">
+    <failure type="">Error: No provider for HttpClient!
+    at injectionError node_modules/@angular/core/@angular/core.es5.js:1169:22)
+    at noProviderError node_modules/@angular/core/@angular/core.es5.js:1207:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull node_modules/@angular/core/@angular/core.es5.js:2649:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault node_modules/@angular/core/@angular/core.es5.js:2688:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKey node_modules/@angular/core/@angular/core.es5.js:2620:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_.get node_modules/@angular/core/@angular/core.es5.js:2489:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9492:1)
+    at NgModuleRef_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.NgModuleRef_.get node_modules/@angular/core/@angular/core.es5.js:10562:1)
+    at resolveDep node_modules/@angular/core/@angular/core.es5.js:11050:1)
+    at createClass node_modules/@angular/core/@angular/core.es5.js:10914:1)
+</failure>
+  </testcase>
+  <testcase name="AppComponent should print upon button click" time="0.022" classname="unit.AppComponent">
+    <failure type="">Error: No provider for HttpClient!
+    at injectionError node_modules/@angular/core/@angular/core.es5.js:1169:22)
+    at noProviderError node_modules/@angular/core/@angular/core.es5.js:1207:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull node_modules/@angular/core/@angular/core.es5.js:2649:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault node_modules/@angular/core/@angular/core.es5.js:2688:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKey node_modules/@angular/core/@angular/core.es5.js:2620:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_.get node_modules/@angular/core/@angular/core.es5.js:2489:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9492:1)
+    at NgModuleRef_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.NgModuleRef_.get node_modules/@angular/core/@angular/core.es5.js:10562:1)
+    at resolveDep node_modules/@angular/core/@angular/core.es5.js:11050:1)
+    at createClass node_modules/@angular/core/@angular/core.es5.js:10914:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
