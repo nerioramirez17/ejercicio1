@@ -1,7 +1,7 @@
 ## Ejercicio 1
 Api Date 
 
-## Description
+## Descripcion
 Ejercicio Api date, consumiendo con hhtp un servicio que retorna la hora.
 
 
